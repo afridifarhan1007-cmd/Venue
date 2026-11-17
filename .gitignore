@@ -1,0 +1,25 @@
+node_modules/
+.env
+.env.*
+!.env.example
+data/db.json
+data/velune.db
+data/velune.db-shm
+data/velune.db-wal
+data/private/
+# Product photography is uploaded separately; only the folder structure ships.
+public/images/catalog/*
+!public/images/catalog/.gitkeep
+public/images/products/*
+!public/images/products/.gitkeep
+public/images/uploads/*
+!public/images/uploads/.gitkeep
+!public/images/uploads/proofs/
+public/images/uploads/proofs/*
+!public/images/uploads/proofs/.gitkeep
+vibe_images/*
+!vibe_images/.gitkeep
+.qa/
+.DS_Store
+Thumbs.db
+*.log
